@@ -1,0 +1,86 @@
+
+.top{
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: yellow;
+    border-radius: 1px solid yellow;
+    margin: auto;
+    max-width: 900px;
+    padding :2px;
+}
+#food{
+    font-size: 80px;
+    letter-spacing: 15px;
+}
+#name{
+    padding-top: 30px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    margin-left: 1080px;
+}
+     
+.header::before,.header::after{
+        content: "";
+        flex: 1px;
+        border-top: 1px solid black;
+}
+.header span{
+    margin: 0 8px;
+    font-size: 10px;
+   
+}
+
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns: 400px 400px;
+    gap: 15px;
+    max-width: 900px;
+    margin: auto;
+    column-gap: 90px;
+    row-gap: 15px;
+    background-color: black;
+    color: white;
+    
+}
+.container{
+    
+    padding: 10px;
+}
+.container{
+    display: flex;
+    gap: 1px;
+}
+
+.dessert{
+    display: grid;
+    grid-template-columns:350px 100px 350px 100px ;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: yellow;
+   
+}
+.head{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 80px;
+    max-width: 900px;
+    margin: auto;
+    background-color: yellow;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.text h3{
+    font-size: 30px;
+}
